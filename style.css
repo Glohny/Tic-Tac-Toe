@@ -42,6 +42,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    font-family: monospace;
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -84,8 +88,7 @@ body {
 }
 
 .ResetButton {
-    align-self: flex-end;
-    margin-bottom: 25px;
+    align-self: center;
     justify-self: center;
     grid-area: Reset;
     height: 50px;
@@ -97,11 +100,21 @@ body {
     font-size: 45px;
 }
 
-.Score1, .Score2 {
+.Score1{
+    font-size: 60px;
+    color: white;
+    display: grid;
     grid-area: Score1;
+    justify-content: center;
+    align-items: center;
 }
 
 .Score2 {
+    font-size: 60px;
+    color: white;
+    display: grid;
     grid-area: Score2;
+    justify-content: center;
+    align-items: center;
 }
 
