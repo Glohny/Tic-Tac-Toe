@@ -50,6 +50,9 @@ const GameController = (function() {
                 button.disabled = true;
             });
         } 
+        else if (gameboard.every(row => row.every(cell => cell !== ''))) {
+            AttributeChanger.HighlightButton();
+        }
     }
 
     const reset = function(gameboard) {
